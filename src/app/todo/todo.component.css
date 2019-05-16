@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+body {
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    font-family: 'Open Sans', sans-serif;
+    Font-weight: 300;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+/* li {
+    display: flex;
+    justify-content: space-between;
+}
+
+li p {
+    flex: 1;
+} */
+
+input {
+    padding: 5px;
+}
+
+.material-icon {
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translateX(-50%);
+}
+
+input,
+button {
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.comp_btn {
+    border-color: #ff69b4;
+    background-color: white;
+}
+
+.add_btn {
+    border-color: #bbb;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    background-color: #f857a6;
+    margin-top: 5%;
+    align-items: center;
+    padding: 2%;
+}

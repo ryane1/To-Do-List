@@ -1,0 +1,16 @@
+<body>
+    <section>
+        <h1>TODO List</h1>
+        <p>A place to store things you have to do!</p>
+        <input type="text" placeholder="Filter your to-dos">
+        <ol>
+            <li *ngFor="let todo of todoList">
+                <button class="comp_btn" *ngIf="!todo.completed">Complete</button> {{ todo.task }}
+                <!-- <p>{{ todo.task }}</p> -->
+                <span><i class="material-icons">close</i></span>
+            </li>
+        </ol>
+        <input type="text" placeholder="Add your to do">
+        <button class="add_btn">Add</button>
+    </section>
+</body>
